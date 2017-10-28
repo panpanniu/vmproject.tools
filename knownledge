@@ -1,0 +1,52 @@
+git upload  http://www.cnblogs.com/teamemory/p/6953693.html 设置
+
+在webstorm
+1.创建一个项目
+2,version->git
+
+快捷push
+CTRL+K
+SHIFT+k
+项目里
+.gitingore
+Readerme.html
+
+Git 必须在user目录下有“.global” 文件
+.
+[user]
+name=  you username
+email=you email.
+
+
+ctrl+shift
+bin\git config --global user.name ""
+
+bin\git config --global user.email ""
+
+
+属性
+<filedset>
+<lengend>
+<input type="date:
+<input type="color"
+
+CSS 例子
+http://csszengarden.com/
+
+
+
+免费建个人首页
+名字必须是此规则
+用户名.github.io
+ex: panpanniu.github.io
+
+
+
+该域名是 是什么文件
+建一个 CNAME 文件里定义域名
+CNAME 定义域名
+meifei.net
+192.168..
+
+写例子
+http://twitter.github.io/
