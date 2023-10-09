@@ -1,45 +1,69 @@
-<!DOCTYPE html>
-<html lang="en-us">
-<head>
-    <meta charset="UTF-8">
-    <title>VM project tool</title>
-    <style>
-        nav{
-            width:100%;
-            height:30px;
-            background-color:black;
-        }
-        section{
-            width:60%;
-			height:500px;
-            background-color:#3c3c3c;
-			margin:auto;
-			float:left;
-        }
-		
-    </style>
-	<!--script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
-<script>
-    Weglot.initialize({
-        api_key: 'wg_1a9f7fbc2f076d293633161866ff682d3'
-    });
-</script-->
-</head>
-<body>
-    <h1>Weglot</h1>
-    <h4>Weglot allows you to make your website multilingual in</h4>
-    <header>
-        <p style="background-color:#ddd;color:red;" >When you visit our website, cookies are placed on your computer, mobile phone or tablet. Their purpose is to facilitate browsing, detect potential problems and distribute custom commercial offers. You can customise your consent for each cookie.</p> 
-    </header>
-    <nav>
-    </nav>
-	<div style="float:left">Left</div>
-   
-        
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+  <title>VM Project</title>
+  <meta http-equiv="x-ua-compatible" content="IE=edge">
   
-	<div style="float:right">Right</div>
-    
-    
-    
-</body>
+  <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <style>
+  p{ margin: 2px} 
+  .btn{display:inline}
+  div{padding:0;margin:0}
+  h4{padding:4px;font-size:16px}
+  </style>
+ </head>
+ <body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <h4 style="background-color: #dedef8"">Websites</h4>
+            <p><a href="https://prod-ws.vmware.com/ws-legacy/assignments_projects?&token=2142869539" class="btn" target="_blank">WordlServer project</a></p>
+            <p><a href="https://lqeprd-rd.vmware.com/dashboard" class="btn" target="_blank">LQE</a></p>
+
+
+            
+         </div>
+         <div class="col-md-3">
+            <h4 style="background-color: #dedef8;">TM</h4>
+                       <p><a href="https://prod-ws.vmware.com/ws-legacy/login?wanted=tools_tm%3F%26tmGroupId%3D1753" class="btn" target="_blank">NSX-T DOC TM</a></p>
+            <p><a href="https://prod-ws.vmware.com/ws-legacy/login?wanted=tools_tm%3F%26tmGroupId%3D1850" class="btn" target="_blank">NSX-T UI TM</a></p>
+
+         </div>
+         <div class="col-md-3">
+            <h4 style="background-color: #dedef8">Notes & Issues</h4>
+            <p><a href="#" onclick="showAlert2()">(ES) cannot open the Idiom file</a></p>
+
+
+
+        </div>
+         <div class="col-md-3">
+            <h4 style="background-color: #dedef8">Tools</h4>
+           <p><a href="D:\VMware\Tool\VMTools" class="btn" target="_blank">Record LQA Summary</a></p>
+		   <p><a href="#" class="btn" onclick="showAlert()">Bat (rename, create, move)</a></p>
+			<br><br><br><br><br><br><br><br><br>
+           <P><textarea style="width:250px; height:100px;color:red" >Temporary Record box...</textarea></p>
+        </div>
+
+    </div>
+</div>
+<script>  
+    function showAlert() {  
+      alert("Create: md a (create)\nRename: ren aaa bbb \nMove:\n   set tarDir=C:\Users\Pan\Desktop\DMa\Reference  \n   set filenameui='*zh_CN.csv'  \n   move %filenameui% %tarDir% \n   ---can be spliced in Excel and copied to text");  
+    }  
+</script>
+<script>  
+    function showAlert2() {  
+      alert("1. Rename xlz to zip and extract the file. \n2. In .xlf file, change 21514 to 1034. \n    Compress it into zip and rename it to .xlz. \n    A path that is too long can cause the file to not open.");  
+    }  
+</script>
+	<script src="js/jquery-1.11.3.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/bootlint.js"></script>
+ </body>
 </html>
