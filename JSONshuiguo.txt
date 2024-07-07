@@ -1,0 +1,18 @@
+[  
+  {  
+    "imageUrl": "https://m.qpic.cn/psc?/V54VyXtp2MWE414M6tyj4bFf7a3TQqCL/ruAMsa53pVQWN7FLK88i5pLPZzik7lTm1jopAHUwSYX.qZXa9YD9QwJis.BOyzdc280cE9eSAYCU8lzwvE4x0q7QisPL3kGeZahreGDRCK0!/mnull&bo=ywClAAAAAAADB0w!&rf=photolist&t=5",  
+    "description": "这是第一个产品，具有高品质的图像和出色的性能。",  
+    "price": "￥99.99"  
+  },  
+  {  
+    "imageUrl": "https://m.qpic.cn/psc?/V54VyXtp2MWE414M6tyj4bFf7a3TQqCL/ruAMsa53pVQWN7FLK88i5pLPZzik7lTm1jopAHUwSYX.qZXa9YD9QwJis.BOyzdc280cE9eSAYCU8lzwvE4x0q7QisPL3kGeZahreGDRCK0!/mnull&bo=ywClAAAAAAADB0w!&rf=photolist&t=5",  
+    "description": "第二个产品，专注于设计和用户体验。",  
+    "price": "￥149.99"  
+  },  
+  {  
+    "imageUrl": "https://m.qpic.cn/psc?/V54VyXtp2MWE414M6tyj4bFf7a3TQqCL/ruAMsa53pVQWN7FLK88i5pLPZzik7lTm1jopAHUwSYX.qZXa9YD9QwJis.BOyzdc280cE9eSAYCU8lzwvE4x0q7QisPL3kGeZahreGDRCK0!/mnull&bo=ywClAAAAAAADB0w!&rf=photolist&t=5",  
+    "description": "超值特价产品，适合预算有限的消费者。",  
+    "price": "￥69.99"  
+  },  
+  // 你可以继续添加更多产品...  
+]
